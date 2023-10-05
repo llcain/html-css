@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Learning HTNL</title>
+    <title>Marioclub</title>
 </head>
 <body>
-    <div>
-        <p>hello, <strong>ninjas</strong></p>
-        <p>my <small>first</small> web <em>pages!</em></p>
-        <a href="about.html">about page</a>
-    </div>
     
-    <div>
-        <h1>heading 1</h1>
-        <h2>heading 2</h2>
-        <h3>heading 3</h3>
-        <h4>heading 4</h4>
-    </div>
-    
-    <div>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
+
+    <section class="banner">
+        <img src="img/banner.png" alt="marioclub welcome banner">
+        <div class="welcome">
+            <h2>Welcome to <br><span>Marioclub</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
         <ul>
-            <li>yoshi</li>
-            <li>luigi</li>
-            <li>toad</li>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html" class="join">Latest news</a></li>
+            <li><a href="/games.html" class="join">New Games</a></li>
+            <li><a href="/contact.html" class="join">Contact</a></li>
         </ul>
-    </div>
-    
-    <span>I am a <br>span tag</span>
-
-    <hr>
-
-    
+    </nav>
+    <main>
+        <article>
+            <h2>It's a me, Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam
+            labore modi harum temporibus rerum laboriosam, pariatur minima, dolore 
+            culpa in molestias quae beatae, voluptas fuga minus ducimus mollitia 
+            vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore
+            eum deleniti earum quod, dolore laboriosam quo quisquam culpa similique modi?
+            Officia eum culpa velit doloremque. Eos nemo beatae dicta. Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Reprehenderit veritatis ipsam earum
+            accusamus, unde, neque accusantium rerum repellat ipsum enim laudantium 
+            error aut explicabo saepe cupiditate nesciunt quod corrupti id!</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="mario thumb 1"></li>
+            <li><img src="img/thumb-2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur autem aliquid esse fugiat, voluptatibus beatae. Unde tempore consequatur tempora ut eos ad. Assumenda quaerat odit excepturi deserunt iusto impedit.</p>
+        <form>
+            <input type="email" name="email" placeholder="Type Email & Hit enter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2023 Marioclub</p>
+    </footer>
    
 
 </body>    
