@@ -15,6 +15,7 @@ header h1 {
     border: 8px solid white;
     padding: 6px 12px;
     display: inline-block;
+    border-radius: 36px;
 }
 
 .banner {
@@ -40,4 +41,32 @@ header h1 {
 
 .banner h2 span {
     font-size: 1.3em;
+}
+
+nav {
+    background-color: #f4f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 148px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #4b4b4b4b;
+}
+
+nav li a.join {
+    color: #f63232;
 }
