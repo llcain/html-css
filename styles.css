@@ -1,11 +1,10 @@
-body {
-    position: relative;
-}
+
 header {
     background-color: #F63232;
     padding: 20px;
     text-align: center;
     position: fixed;
+    width: 100%;
 }
 
 .banner {
