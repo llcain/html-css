@@ -1,3 +1,4 @@
+// create element
 const para = document.createElement('p');
 
 // create text node in paragraph
