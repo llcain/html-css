@@ -24,11 +24,25 @@ const users = [
     {"name": "Susan", "age": 32, "city": "Columbia"}
 ]
 
-let list = document.createElement('ul');
-let item = document.createElement('li');
+// let list = document.createElement('ul');
+// let item = document.createElement('li');
 
-let ul = document.getElementById('list');
-let li = document.getElementById('item');
+// let ul = document.getElementById('list');
+// let li = document.getElementById('item');
 
-li.appendChild("ul");
+// item.appendChild("ul");
+// document.getElementById("list").appendChild(body);
 
+function myFunction() {
+    // create an "li" node
+    const li = document.createElement("li");
+
+    // create a text node
+    const textNode = document.createTextNode("Water");
+
+    // append the text node to the "li" node:
+    li.appendChild(textNode);
+
+    // append the "li" node to the list:
+    document.getElementById("myList").appendChild(li);
+}
